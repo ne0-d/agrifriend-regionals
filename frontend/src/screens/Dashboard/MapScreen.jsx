@@ -8,7 +8,7 @@ const MapScreen = () => {
     return (
         <div style={{ marginTop: "110px" }}>
             <Meta
-                title="Agroic | Admin Map"
+                title="Agri Friend | Admin Map"
             />
             <Container fluid>
                 <Row>

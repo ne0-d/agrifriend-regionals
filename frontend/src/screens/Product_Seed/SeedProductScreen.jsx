@@ -69,7 +69,7 @@ const SeedProductScreen = ({ history, match }) => {
     return (
         <div className="productScreen">
             <Meta
-                title="Agroic | Seed"
+                title="Agri Friend | Seed"
             />
             <Container>
                 <Link className="btn btn-go-back btn-dark" to="/farmers/purchaseSeeds">GO BACK</Link>

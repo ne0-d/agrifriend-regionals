@@ -29,8 +29,8 @@ const Map = () => {
 
     return (
         <GoogleMap
-            defaultCenter={{ lat: 6.927079, lng: 79.861244 }}
-            defaultZoom={10}
+            defaultCenter={{ lat: 30.5937, lng: 78.9629 }}
+            defaultZoom={5}
             defaultOptions={{ styles: MapStyles }}
         >
             {
