@@ -38,8 +38,6 @@ Farmers can rent equipment from suppliers, helping them to improve their agricul
 
 Consumers can buy products directly from the farmers and suppliers on the website, promoting a direct and fair trade relationship between producers and consumers. This ensures that farmers receive a fair price for their products while consumers receive fresh, high-quality products.
 
-Overall, the Organic Harvest Hub is a unique platform that promotes sustainable and ethical practices in agriculture while connecting farmers, suppliers, and consumers. Its user-friendly interface and various features, such as a chatbot, payment gateway, equipment rental, and loan facilities, make it an ideal solution for farmers and consumers.
-
 ## How to set up the project?
 
 ### Env Variables
