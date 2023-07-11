@@ -40,6 +40,51 @@ Consumers can buy products directly from the farmers and suppliers on the websit
 
 Overall, the Organic Harvest Hub is a unique platform that promotes sustainable and ethical practices in agriculture while connecting farmers, suppliers, and consumers. Its user-friendly interface and various features, such as a chatbot, payment gateway, equipment rental, and loan facilities, make it an ideal solution for farmers and consumers.
 
+## How to set up the project?
+
+### Env Variables
+
+Create a .env file in then root and add the following
+
+```
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = your mongodb uri
+JWT_SECRET = 'abc123'
+PAYPAL_CLIENT_ID = your paypal client id
+```
+Create a .env file inside frontend and add the following
+
+```
+REACT_APP_GOOGLE_KEY = "add google map api key"
+```
+
+### Install Dependencies (frontend & backend)
+
+```
+npm install
+cd frontend
+npm install
+```
+
+### Run
+
+```
+# Run frontend (:3000) & backend (:5000)
+npm run dev
+
+# Run backend only
+npm run server
+```
+
+## Build & Deploy
+
+```
+# Create frontend prod build
+cd frontend
+npm run build
+```
+
 ## Future Implementation:-
 Chatbot
 Payment Gateway
